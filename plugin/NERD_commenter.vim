@@ -56,6 +56,7 @@ call s:InitVariable('g:NERDDisableTabsInBlockComm', 0)
 let s:NERDFileNameEscape="[]#*$%'\" ?`!&();<>\\"
 
 let s:delimiterMap = {
+    \ 'TODO': { 'left': '[Done] ' },
     \ 'aap': { 'left': '#' },
     \ 'abc': { 'left': '%' },
     \ 'acedb': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
